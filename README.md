@@ -26,3 +26,8 @@ The velocity of sound in air is about 340 (m/s) <br>
 **cm:** calculate the distance from obstacle.<br>
 
 ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/time_sequence_hc_sr04.JPG)<br>
+  
+## Result 
+We measure the distance from HC-SR04 module to obstacle and display <br>
+the result on seven-seg display
+<img src="https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/HC-SR04_photo.jpg" width="200" ><br>

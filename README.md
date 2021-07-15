@@ -1,7 +1,7 @@
 # HC-SR04__FPGA
 
 ## HC-SR04
-HC-SR04 is a distance measurement module. It can emmit the ultrasound wave, and use the <by>
+HC-SR04 is a distance measurement module. It can emit the ultrasound wave, and use the <by>
 reflection time of ultrasound wave and the velocity of sound in air to calculate <by>
 the distance from obstacle.
   
@@ -12,6 +12,7 @@ signal from FPGA, it will send out an 8 cycle burst of ultrasound at 40 kHz. We 
 the formula cm = (high level time/2)/29.1 <br>
 29.1 (us/cm) = 1/340 (s/m) <br>
 The velocity of sound in air is about 340 (m/s) <br>
+  
 ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/ultrasound_TTL.JPG)<br>
   
 ## Time sequence of FPGA
@@ -29,5 +30,6 @@ The velocity of sound in air is about 340 (m/s) <br>
   
 ## Result 
 We measure the distance from HC-SR04 module to obstacle and display <br>
-the result on seven-seg display
-<img src="https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/HC-SR04_photo.jpg" width="200" ><br>
+the result on seven-seg display<br>
+  
+<img src="https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/result_distance_measurement.jpg" width="700" ><br>

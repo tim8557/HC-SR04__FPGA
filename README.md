@@ -14,4 +14,20 @@ the formula cm = (high level time/2)/29.1 <br>
 The velocity of sound in air is about 340 (m/s) <br>
 ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/ultrasound_TTL.JPG)<br>
   
+## Time sequence of FPGA
+**clk:** the clock frequency of FPGA.<br>
+**trigger:** send the signal to start the HC-SR04 module.<br>
+**dur:** the echo pulse-width from HC-SR04 module.<br>
+**reg1:** inorder to obtain the falling edge of dur.<br>
+**reg2:** inorder to obtain the falling edge of dur.<br>
+**falling:** the falling become logic 1 when dur transfer from logic 1 into logic 0.<br>
+**dur_cnt:** count the duration time of dur.<br>
+**dur_data:** it send the duration time of dur when the falling is login 1.<br>
+**cm:** calculate the distance from obstacle.<br>
+
+![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/time_sequence_hc_sr04.JPG)<br>
   
+## Result 
+We measure the distance from HC-SR04 module to obstacle and display <br>
+the result on seven-seg display
+<img src="https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/HC-SR04_photo.jpg" width="200" ><br>

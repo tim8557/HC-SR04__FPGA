@@ -14,4 +14,6 @@ the formula cm = (high level time/2)/29.1 <br>
 The velocity of sound in air is about 340 (m/s) <br>
 ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/ultrasound_TTL.JPG)<br>
   
-  
+## Time sequence of FPGA
+
+  ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/ultrasound_TTL.JPG)<br>

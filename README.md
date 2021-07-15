@@ -15,5 +15,8 @@ The velocity of sound in air is about 340 (m/s) <br>
 ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/ultrasound_TTL.JPG)<br>
   
 ## Time sequence of FPGA
+clk: the clock frequency of FPGA
+trigger: send the signal to start the  HC-SR04 module
 
-  ![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/ultrasound_TTL.JPG)<br>
+
+![image](https://github.com/tim8557/HC-SR04__FPGA/blob/main/images/time_sequence_hc_sr04.JPG)<br>
